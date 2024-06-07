@@ -31,9 +31,9 @@ public class EmailApp {
 			email.setDeparment(depChoice);
 			email.generateEmail();
 			email.showInfo();
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
-        }
+	        } catch (IllegalArgumentException e) {
+	            	System.out.println(e.getMessage());
+	        }
 		
 		
 	}
