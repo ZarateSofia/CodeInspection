@@ -50,7 +50,7 @@ public class Email {
 			this.department = "acct";
 			break;
 		default:
-            throw new IllegalArgumentException("Invalid department");
+            		throw new IllegalArgumentException("Invalid department");
 		}
 	}
 
